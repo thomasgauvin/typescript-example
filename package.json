@@ -32,7 +32,8 @@
     "typeorm": "^0.2.15"
   },
   "scripts": {
-    "start": "tsc && node src/index.js",
-    "typeorm": "./node_modules/.bin/typeorm "
+    "typeorm": "./node_modules/.bin/typeorm ",
+    "build": "tsc",
+    "prod": "node build/index.js"
   }
 }
